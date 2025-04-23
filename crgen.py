@@ -58,6 +58,8 @@ chrome_options.add_argument("--incognito")
 chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
 driver = webdriver.Chrome(options=chrome_options)
 
+print("Bu Proje 5x5x5x5x Tarafından Oluşturulmuştur Parayla Satın Aldıysanız Dolandırıldınız Projemi Starlarsanız Sevinirim İzinsiz Satış ve Düzenlemelerde MIT Lisansı Devreye Girecektir Her Türlü İşlem Yapılacaktır https://github.com/5x5x5x5x/Craftrise-Account-Generator")
+
 driver.get("https://www.craftrise.com.tr/kayit")
 driver.implicitly_wait(10)
 sleep(5)
